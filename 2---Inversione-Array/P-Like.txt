@@ -1,0 +1,15 @@
+Function inversione(in:Array1, Array2, N out:Array2[])
+var Array :array1 [1....n] of integer
+var Array :array2 [1....n] of integer
+var j,N :integer 
+var k = N :integer
+begin
+for j:=1 to j <= N do
+Array2(j) := Array1(k)
+if  k!=0
+k--
+endif
+endfor
+return Array2[]
+end
+end inversione
