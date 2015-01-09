@@ -1,0 +1,11 @@
+function Partizione(in: Arr, n, x)
+var Array :Arr [1....n] of integer
+var n, i, j, tmp, x:integer
+begin
+tmp:=Array(i)
+Arr(i):=Arr(j)
+Arr(j):=tmp
+j:=j-1
+end for
+end
+end Partizione
