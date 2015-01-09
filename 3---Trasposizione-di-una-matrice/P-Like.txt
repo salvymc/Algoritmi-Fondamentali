@@ -1,0 +1,11 @@
+Function Trasposizione(in:matrice,colonne,righe)
+var Array :matrice[1....colonne][1....righe] of integer
+var Array :matrice_t[1....righe][1....colonne]of integer
+var i,j :integer
+for i:=0 to colonne do
+	for j:=0 to righe do
+	 matrice_t(j)(i) = matrice(i)(j)
+	endfor
+endfor
+end
+end Trasposizione
